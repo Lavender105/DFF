@@ -1,0 +1,11 @@
+encoding_kernel.cu
+encodingv2_kernel.cu
+nms_kernel.cu
+operator.cpp
+roi_align_kernel.cu
+setup.py
+syncbn_kernel.cu
+enclib_gpu.egg-info/PKG-INFO
+enclib_gpu.egg-info/SOURCES.txt
+enclib_gpu.egg-info/dependency_links.txt
+enclib_gpu.egg-info/top_level.txt

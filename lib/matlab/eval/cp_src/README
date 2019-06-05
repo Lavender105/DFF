@@ -1,0 +1,6 @@
+To compile the benchmarking software from source code, run:
+
+   source build.sh
+
+This script should compile the correspondPixels mex file and copy it into the 
+../benchmarks/ directory.
