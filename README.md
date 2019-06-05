@@ -12,7 +12,7 @@ We propose a novel dynamic feature fusion strategy for semantic edge detection. 
 We also reproduce CASENet in this repository, and actually achieve higher accuracy than the original [paper](https://arxiv.org/abs/1705.09759) .
 
 ## Installation
-Check INSTALL.md（超链接） for installation instructions.
+Check [INSTALL.md](https://github.com/Lavender105/DFF/blob/master/INSTALL.md) for installation instructions.
 
 ## Usage
 ### 1. Preprocessing
