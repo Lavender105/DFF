@@ -4,6 +4,9 @@ Yuan Hu, Yunpeng Chen, Xiang Li and Jiashi Feng
 ![overview.png](https://github.com/Lavender105/DFF/blob/master/img/overview.png)
 ![visualization.png](https://github.com/Lavender105/DFF/blob/master/img/visualization.png)
 
+### Video Demo
+We have released a demo video of DFF on [Youtube](https://youtu.be/wSCKTepMfhY) and Bilibili.
+
 ## Introduction
 The repository contains the entire pipeline (including data preprocessing, training, testing, visualization, evaluation and demo generation, etc) for DFF using Pytorch 1.0.
 
@@ -204,9 +207,6 @@ run demoMakeVideo.m
 ```
 
 This will generate video files of DFF predictions and comparison with reproduced CASENet on Cityscapes video sequences.
-
-### Video Demo
-We have released a demo video of DFF on [Youtube](https://youtu.be/wSCKTepMfhY) and Bilibili.
 
 ### Note
 The Matlab code is modified from [SEAL](https://github.com/Chrisding/seal), and the Pytorch code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding).
