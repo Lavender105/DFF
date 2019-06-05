@@ -16,7 +16,7 @@ Check INSTALL.md（超链接） for installation instructions.
 
 ## Usage
 ### 1. Preprocessing
-**Cityscapes Data**: In this part, we assume you are in the directory `$DFF_ROOT/data/cityscapes-preprocess/`. Note that in this repository, all Cityscapes pipelines are instance-sensitive only.
+**Cityscapes Data**: In this part, we assume you are in the directory `$DFF_ROOT/data/cityscapes-preprocess/`. Note that in this repository, all Cityscapes pipelines are **instance-sensitive only**.
 
 (1) Download the files `gtFine_trainvaltest.zip`, `leftImg8bit_trainvaltest.zip` and `leftImg8bit_demoVideo.zip` from the [Cityscapes website](https://www.cityscapes-dataset.com/) to `data_orig/`, and unzip them:
 ```
@@ -76,6 +76,7 @@ where 0 indicates non-edge, and 1 indicates edge.
 
 ### 2. Training
 In this part, we assume you are in the directory `$DFF_ROOT/exps/`.
+
 **Train DFF on Cityscapes:**
 ```
 conda activate dff-master
@@ -97,7 +98,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 python train.py --dataset sbd --model dff --backbone resnet50 --checkname dff  --base-size 352 --crop-size 352 --epochs 10 --batch-size 16 --lr 0.05 --workers 8
 ```
 
-**Train DFF on SBD:**
+**Train CASENet on SBD:**
 ```
 conda activate dff-master
 export CUDA_VISIBLE_DEVICES=0,1,2,3
@@ -106,6 +107,7 @@ python train.py --dataset sbd --model casenet --backbone resnet50 --checkname df
 
 ### 3. Testing
 In this part, we assume you are in the directory `$DFF_ROOT/exps/`.
+
 **Test DFF on Cityscapes:**
 ```
 conda activate dff-master
@@ -127,7 +129,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 python test.py --dataset SBD --model dff --checkname dff  --resume-dir runs/sbd/dff/dff --workers 8 --backbone resnet50 --eval
 ```
 
-**Test DFF on SBD:**
+**Test CASENet on SBD:**
 ```
 conda activate dff-master
 export CUDA_VISIBLE_DEVICES=0,1,2,3
@@ -136,6 +138,7 @@ python test.py --dataset SBD --model casenet --checkname casenet  --resume-dir r
 
 ### 4. Visualization
 In this part, we assume you are in the directory `$DFF_ROOT/exps/`.
+
 **Visualize DFF on Cityscapes:**
 ```
 conda activate dff-master
