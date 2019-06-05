@@ -1,7 +1,11 @@
 ## Requirements:
+
 Pytorch 1.0
+
 cuda 9.0
+
 cudnn v7.3
+
 nccl v2.3.7
 
 ## Step-by-step installation
