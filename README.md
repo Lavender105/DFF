@@ -206,7 +206,7 @@ run demoMakeVideo.m
 This will generate video files of DFF predictions and comparison with reproduced CASENet on Cityscapes video sequences.
 
 ### Video Demo
-We have released a demo video of DFF on Youtube and Bilibili. Click the image below to and watch the video.
+We have released a demo video of DFF on [Youtube](https://youtu.be/wSCKTepMfhY) and Bilibili.
 
 ### Note
 The Matlab code is modified from [SEAL](https://github.com/Chrisding/seal), and the Pytorch code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding).
