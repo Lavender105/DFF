@@ -5,7 +5,7 @@ Yuan Hu, Yunpeng Chen, Xiang Li and Jiashi Feng
 ![visualization.png](https://github.com/Lavender105/DFF/blob/master/img/visualization.png)
 
 ### Video Demo
-We have released a demo video of DFF on [Youtube](https://youtu.be/wSCKTepMfhY) and Bilibili.
+We have released a demo video of DFF on [Youtube](https://youtu.be/wSCKTepMfhY) and [Bilibili](https://www.bilibili.com/video/av54650328/).
 
 ## Introduction
 The repository contains the entire pipeline (including data preprocessing, training, testing, visualization, evaluation and demo generation, etc) for DFF using Pytorch 1.0.
