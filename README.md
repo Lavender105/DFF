@@ -209,7 +209,7 @@ run demoMakeVideo.m
 This will generate video files of DFF predictions and comparison with reproduced CASENet on Cityscapes video sequences.
 
 ### Trained Models
-You can also download the trained DFF model on Cityscapes and SBD dataset from [Google Drive](https://drive.google.com/open?id=1-PCfJH6w1sFE5Q-B-GXL_D9DiiEyWA7P) | [Baidu Yun](https://pan.baidu.com/s/1RwA7yiOmWWOwWMf4OtSo0g) (code:n24x).
+You can also download the trained DFF model on Cityscapes and SBD dataset from [Google Drive](https://drive.google.com/open?id=1-PCfJH6w1sFE5Q-B-GXL_D9DiiEyWA7P) | [Baidu Yun](https://pan.baidu.com/s/1RwA7yiOmWWOwWMf4OtSo0g) (code: n24x).
 
 ### Note
 The Matlab code is modified from [SEAL](https://github.com/Chrisding/seal), and the Pytorch code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding).
